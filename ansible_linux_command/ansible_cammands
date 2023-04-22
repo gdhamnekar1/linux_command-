@@ -1,4 +1,4 @@
-ubuntu@ip-10-0-0-80:~$ history
+ubuntu@ip-10-0-0-80:~/ansible$ history
     1  sudo apt update
     2  sudo apt install ansible
     3  cd .ssh
@@ -219,17 +219,53 @@ ubuntu@ip-10-0-0-80:~$ history
   218  ls -la
   219  chmod 700 .ssh
   220  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
-  221  cd /home/ubuntu/ansible/hosts
-  222  ls
-  223  cd ..
-  224  ls
-  225  cd ubuntu/
-  226  ls
-  227  cd ansible/
-  228  ls
-  229  cat hosts 
-  230  cd ..
-  231  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
-  232  clear
-  233  ansible all -a "free -h" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
-  234  history
+  221  sudo ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  222  sudo chmod 400 ~/.ssh/ansible_key
+  223  sudo ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  224  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  225  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  226  sudo chmod 600 /root/.ssh/ansible_key
+  227  ansible all -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  228  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  229  cd /home/ubuntu/ansible
+  230  ls
+  231  vi hosts 
+  232  cd ..
+  233  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  234  sudo ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  235  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  236  ls -la
+  237  cd .ssh/
+  238  ls
+  239  cat ansible_key 
+  240  chmod 700 ansible_key 
+  241  sudo chmod 700 ansible_key 
+  242  cat ansible_key 
+  243  sudo chmod 700 ansible_key 
+  244  cat ansible_key 
+  245  sudo cat ansible_key 
+  246  sudo chmod 600 ansible_key 
+  247  cat ansible_key 
+  248  sudo chmod 700 ansible_key 
+  249  cd ..
+  250  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  251  cd /home/ubuntu/ansible
+  252  ls
+  253  cat hosts 
+  254  vi hosts 
+  255  cd ..
+  256  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  257  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  258  cd /home/ubuntu/ansible
+  259  vi hosts 
+  260  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  261  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  262  vi hosts 
+  263  ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  264  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  265  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=/path/to/ansible_key
+  266  vi hosts 
+  267  vi hosts sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=/path/to/ansible_key
+  268  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=/path/to/ansible_key
+  269  sudo ansible servers -a "uptime" -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
+  270  history
