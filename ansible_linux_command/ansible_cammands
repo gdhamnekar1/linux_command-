@@ -1,0 +1,235 @@
+ubuntu@ip-10-0-0-80:~$ history
+    1  sudo apt update
+    2  sudo apt install ansible
+    3  cd .ssh
+    4  vim ansible_key
+    5  pwd
+    6  ls
+    7  cd ..
+    8  sudo ssh -i -/.ssh/ansible_key ubuntu@65.1.114.93
+    9  exit
+   10  sudo su
+   11  cat /etc/ansible/host
+   12  mkdir ansible
+   13  cd ansible/
+   14  vim hosts
+   15  ansible-inventory --list -y
+   16  pwd
+   17  ls
+   18  pwd
+   19  cd ansible/
+   20  vim hosts
+   21  ls
+   22  rm hosts 
+   23  ls
+   24  vim hosts
+   25  cd ..
+   26  ls
+   27  cat hosts 
+   28  cd ansible/
+   29  vim hosts
+   30  cat hosts 
+   31  ansible-inventory --list -y
+   32  pwd
+   33  ansible-inventory --list -y -i /home/ubuntu/ansible/hosts
+   34  cat hosts 
+   35  cd ..
+   36  ansible-inventory --list -y -i /home/ubuntu/ansible/hosts
+   37  cat hosts 
+   38  ls
+   39  cd ansible/
+   40  ls
+   41  cd host
+   42  cd hosts
+   43  ls 
+   44  cat hosts 
+   45  vim hosts
+   46  ansible-inventory --list -y -i /home/ubuntu/ansible/hosts
+   47  clear
+   48  psw
+   49  pwd
+   50  ansible -m ping -i /home/ubuntu/ansible/hosts
+   51  ls
+   52  ansible -m ping -i /home/ubuntu/ansible/hosts
+   53  clear
+   54  ansible all  -m ping -i /home/ubuntu/ansible/hosts
+   55  ansible all  -m ping -i /home/ubuntu/ansible/hosts --priveate-key=~/.ssh/ansible_key
+   56  ansible all  -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+   57  cd ..
+   58  ls
+   59  ls -la
+   60  cd .ssh/
+   61  cd
+   62  cd ..
+   63  chmod 700 -/.ssh
+   64  ls -la
+   65  cd home/
+   66  ls
+   67  c
+   68  chmod 600 -/.ssh/ansible_ket
+   69  chmod 600 -/.ssh/ansible_key
+   70  ls
+   71  pwd
+   72  ls
+   73  ls -la
+   74  cd ubuntu/
+   75  ls
+   76  cd ..
+   77  ls -la
+   78  chmod 700 home/
+   79  cd home/
+   80  ls
+   81  cd ubuntu/
+   82  ls
+   83  ls -la
+   84  cd .ssh/
+   85  ls
+   86  cd ..
+   87  ls -la
+   88  chmod 600 .ssh/ansible_key
+   89  ls
+   90  pwd
+   91  cd ansible/
+   92  ls
+   93  cd ..dc ..
+   94  cd ..
+   95  ansible all -m ping -i 
+   96  pwd
+   97  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key+~/.ssh/ansible_key
+   98  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key~/.ssh/ansible_key
+   99  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  100  chmod 400 /home/ubuntu/.ssh/ansible_key
+  101  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  102  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_k
+  103  ls
+  104  ls -la
+  105  ls
+  106  chmod 700 ansible/
+  107  ls -la
+  108  cd ansible/
+  109  ls
+  110  chmod 700 hosts 
+  111  ls
+  112  cd hosts
+  113  ls -la
+  114  chmod 777 hosts 
+  115  ls -la
+  116  chmod 600 hosts 
+  117  ls -la
+  118  cd ..
+  119  lsd
+  120  ld
+  121  ls
+  122  cd ansible/
+  123  ls
+  124  chmod 700 hosts 
+  125  ls
+  126  cd ..
+  127  chmod 700 hosts 
+  128  ls   
+  129  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  130  ls -la
+  131  chmod 700 -/.ssh
+  132  chmod 700 .ssh
+  133  ls -la
+  134  chmod 700 -/.ssh
+  135  chmod 760 .ssh
+  136  ls -la
+  137  chmod 700 -/.ssh
+  138  chmod 700 .ssh
+  139  cd .ssh/
+  140  ls
+  141  chmod 700 ansible_key 
+  142  chmod 600 ansible_key 
+  143  cd ..
+  144  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  145  ls
+  146  ls -la
+  147  ls
+  148  cd hosts
+  149  cd ansible/
+  150  ls
+  151  cd hosts
+  152  cd ..
+  153  chmod 700 -/.ssh
+  154  chmod 700 ~/.ssh
+  155  chmod 700 ~/.ssh/ansible_key 
+  156  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  157  chmod 700 ~/.ssh/ansible_key 
+  158  sudo chmod 700 ~/.ssh/ansible_key
+  159  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  160  sudo chmod 600 ~/.ssh/ansible_key
+  161  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  162  chmod 400 ~/.ssh/ansible_key
+  163  sudo chmod 400 ~/.ssh/ansible_key
+  164  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  165  sudo ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  166  sudo chmod 700 ~/.ssh
+  167  sudo ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  168  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  169  sudo chmod 700 ~/.ssh
+  170  sudo chmod 400 ~/.ssh/ansible_key
+  171  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  172  sudo chmod 600 ~/.ssh/ansible_key
+  173  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  174  ls -la
+  175  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ss
+  176  cd .ssh/
+  177  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  178  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_keyl
+  179  ls
+  180  chmod 600 ansible_key 
+  181  sudo chmod 600 ~/.ssh/ansible_key
+  182  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_keyl
+  183  cd ..
+  184  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_keyl
+  185  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  186  ansible all -m ping -i /home/ubuntu/ansible/hosts --ansible-key=~/.ssh/ansible_key
+  187  clear
+  188  chmod 777 home/ubuntu/ansible/hosts
+  189  pwd
+  190  chmod 777 home
+  191  ls
+  192  cat ansible/
+  193  cd ansible/
+  194  ls
+  195  cat hosts 
+  196  pwd
+  197  cd ..
+  198  pwd
+  199  ls
+  200  cd /home/ubuntu/ansible
+  201  cat hosts 
+  202  pwd
+  203  ls
+  204  ls -la
+  205  chmod 600 hosts 
+  206  ls -la
+  207  cd ..
+  208  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  209  cd /home/ubuntu/ansible
+  210  ls
+  211  ls -la
+  212  cd /home/ubuntu
+  213  ls -la
+  214  chmod 600 ansible/
+  215  ls -la
+  216  chmod 600 ansible/
+  217  chmod 700 ansible/
+  218  ls -la
+  219  chmod 700 .ssh
+  220  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  221  cd /home/ubuntu/ansible/hosts
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd ubuntu/
+  226  ls
+  227  cd ansible/
+  228  ls
+  229  cat hosts 
+  230  cd ..
+  231  ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  232  clear
+  233  ansible all -a "free -h" -i /home/ubuntu/ansible/hosts --private-key=~/.ssh/ansible_key
+  234  history
